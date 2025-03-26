@@ -1,0 +1,22 @@
+[package]
+name = "LiquidStaking"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "_"
+
+[dev-addresses]
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "main" }
+AptosToken = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-token/", rev = "main" }
+AptosCoin = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-coin/", rev = "main" }
+AptosAccount = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-account/", rev = "main" }
+AptosTimestamp = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-timestamp/", rev = "main" }
+AptosEvent = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-event/", rev = "main" }
+AptosVector = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-vector/", rev = "main" }
+AptosTable = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-table/", rev = "main" }
+AptosTableWithLength = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-table-with-length/", rev = "main" }
+
+[dev-dependencies]
